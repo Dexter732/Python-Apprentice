@@ -9,7 +9,7 @@ to see how to use the turtle commands.
 """
 
 # These lines are needed in most turtle programs
-import turtle                           # Tell Python we want to work with the turtle
+import circle                          # Tell Python we want to work with the turtle
 turtle.setup (width=600, height=600)    # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
@@ -19,5 +19,12 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # tina.pencolor()
 
 ... # Your code here
+circle.forward(20)
+circle.left(50)
+circle.right(20)
+
+
+
+
 
 turtle.exitonclick()                    # Close the window when we click on it
