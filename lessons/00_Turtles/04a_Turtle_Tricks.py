@@ -8,20 +8,10 @@ to see how to use the turtle commands.
 
 """
 
-# These lines are needed in most turtle programs
-import circle                          # Tell Python we want to work with the turtle
-turtle.setup (width=600, height=600)    # Set the size of the window
 
-tina = turtle.Turtle()                  # Create a turtle named tina
-
-# Use tina.forward() and tina.left() to draw a triangle
-# Make each side of the triangle a different color with 
-# tina.pencolor()
 
 ... # Your code here
-circle.forward(20)
-circle.left(50)
-circle.right(20)
+circle(70)
 
 
 
