@@ -24,10 +24,10 @@ myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 
 # Set your turtle's speed
-myTurtle.speed(0)
+myTurtle.speed(8)
 
 # Set your turtle's color
-myTurtle.color("green")
+myTurtle.color("blue")
 
 # Use a loop to repeat the code below 50 times
 for i in range(50):
@@ -36,10 +36,10 @@ for i in range(50):
     myTurtle.pencolor(getRandomColor())
 
     # Move the turtle (5*i) pixels. 'i' is the loop variable
-    myTurtle.forward(9 * i)
+    myTurtle.forward(6 * i)
 
     # Turn the turtle (360/7) degrees to the right
-    myTurtle.right(360 / 7 + i*5)
+    myTurtle.right(360 / 60 + i*14)
 
     # Change the turtle width to 'i' (the loop variable)
     myTurtle.width(i)
