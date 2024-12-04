@@ -25,11 +25,13 @@ def make_a_shape(t):
 # For instance, you can call make_a_shape() 100 times to make a spiral with 100 shapes.
 # The second ... in the for loop should be the number of shapes you want to make, 
 # for example 100, or it could use islice(), cycle(), or a list of numbers.
-def num_shapes(angle):
+def num_shapes(sides):
+    angle=100/sides
 
 
 for i in range(angle):
     make_a_shape(t)
+    
    
     t.right(360/num_shapes)
 
