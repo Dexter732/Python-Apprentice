@@ -36,7 +36,7 @@ draw_polygon(10,20)                        # Draw a hexagon
 
 tina.goto(-90,50)
 
-draw_polygon(3,18)
+draw_polygon(90,5)
 
 
 

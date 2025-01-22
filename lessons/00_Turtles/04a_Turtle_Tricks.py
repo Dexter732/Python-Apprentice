@@ -11,10 +11,14 @@ to see how to use the turtle commands.
 
 
 ... # Your code here
-circle(70)
+def happy_birthday(birth_year , name):
+    age=2025-birth_year
+
+    return "happy" + str(age) + name 
+
+happy_birthday(2011,"Dexter")
 
 
 
 
-
-turtle.exitonclick()                    # Close the window when we click on it
+                   # Close the window when we click on it
