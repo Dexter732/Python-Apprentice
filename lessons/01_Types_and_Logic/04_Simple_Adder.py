@@ -8,6 +8,10 @@ at the comments and the code snippets in the previous lessons, like
 
 
 """
+from tkinter import messagebox, simpledialog, Tk # import required modules
+print("Hello World")
+window = Tk()
+window.withdraw()
 
 # Import the required modules
 
